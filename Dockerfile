@@ -8,6 +8,7 @@ LABEL "com.github.actions.color"="blue"
 LABEL "repository"="https://github.com/y-mehta/vulnalerts"
 LABEL "homepage"="https://github.com/y-mehta/vulnalerts"
 
+
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
